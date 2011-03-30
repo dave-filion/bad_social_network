@@ -1,0 +1,33 @@
+/* @override 
+	http://domepage.net/main/css/friend_requests.css
+	http://domepage.net/css/friend_requests.css
+*/
+
+#friend_request_box{
+	background-color: rgba(66,66,66,0.5);
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border-right: 1px dashed #a9a9a9;
+	border-left: 1px dashed #a9a9a9;
+}
+
+#friend_request_box h1 {
+	color: #ec0000;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#friend_request_box ul{
+	color: white;
+}
+
+#friend_request_box form{
+	display: inline;
+}
+
+#friend_request_box input{
+	background-color: black;
+	color: white;
+}

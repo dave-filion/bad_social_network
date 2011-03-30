@@ -1,0 +1,162 @@
+/* @override http://domepage.net/css/post.css */
+
+#mainpost{
+   border:1px #769995 solid;
+   padding:15px;
+   border-radius:5px;
+   margin-right:20px;  
+}
+
+#mainpost a {
+	font-size: 1.2em;
+}
+
+#mainpost a:hover {
+	color: #f00;
+}
+
+.content {
+	padding: 10px;
+	overflow: auto;
+}
+
+.content img{
+	float: left;
+	max-height: 300px;
+	max-width: 300px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.timestamp {
+	text-align: right;
+	color: #ec0000;
+}
+
+#commentBox{
+   margin-right:20px;
+}
+   #commentBox p{
+      color:black;
+   }
+
+#comment_col1 {
+	color: #fffeff;
+	width: 230px;
+	float: left;
+}
+
+#comment_col2 {
+	width: 230px;
+	float: left;
+	margin-left: 25px;
+}
+
+#comment_col3 {
+	width: 230px;
+	float: right;
+	margin-right: 20px;
+}
+
+.comment {
+	margin-top: 2px;
+	margin-bottom: 10px;
+	padding: 10px;
+	word-wrap:break-word;
+	clear: both;
+	overflow: auto;
+	background-color: #eaeaea;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.comment img{
+	max-height: 120px;
+	width: 85px;
+	float: left;
+	border: 1px solid #212121;
+}
+
+.comment p{
+	margin-bottom: 10px;
+}
+
+.comment .karma{
+	text-align: right;
+	color: red;
+}
+
+.comment a{
+	text-align: right;
+  
+}
+
+.good {
+	background-color: rgba(35,124,0,0.4);
+	opacity: 1;
+}
+
+.bad {
+	background-color: rgba(188,0,0,0.4);
+}
+
+#write_comment {
+	display: none;
+	position: relative;
+	z-index: 1;
+	padding: 10px;
+	overflow: auto;
+	margin-right: 40px;
+	margin-left: 20px;
+    width: 560px;
+	background-color: #eaeaea;
+}
+
+#write_comment textarea {
+	float: left;
+	width: 400px;
+	margin-right:20px;
+}
+
+#write_comment input {
+	margin-top: 20px;
+	background-color: #000;
+	color: #fffeff;
+	font-size: .8em;
+	display: block;
+}
+
+#write_comment select {
+	background-color: #000;
+	color: #fffeff;
+	font-size: .8em;
+}
+
+#close_write {
+	clear: none;
+	color: #e67578;
+	font-size: .8em;
+}
+
+#write_comment a {
+	margin-left: auto;
+}
+
+#instructionBox {
+   border:1px #769995 solid;
+   background-color: rgba(0,255,255,0.52);
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius:5px;
+}
+
+#instructionBox h1{
+	text-align: left;
+	text-decoration: underline;
+}
+
+#instructionBox p{
+	font-size: .8em;
+}

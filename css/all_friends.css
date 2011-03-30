@@ -1,0 +1,26 @@
+/* @override http://domepage.net/css/all_friends.css */
+
+.friend {
+	background-color: #d5d5d5;
+	float: left;
+	width: 50px;
+	padding: 10px;
+	margin: 5px;
+	height: 50px;
+}
+
+.friend:hover {
+	background-color: #ff8f00;
+}
+
+.friend img {
+	width: 50px;
+	height: 50px;
+}
+
+.friend h1 {
+	color: #f00;
+	text-shadow: #000000 0 0 0;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+

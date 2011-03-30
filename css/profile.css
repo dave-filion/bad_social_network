@@ -1,0 +1,249 @@
+/* @override 
+	http://domepage.net/css/profile.css
+	http://domepage.net/css/profile.css
+*/
+
+#profileLeftBar{
+   margin-top:20px;
+   float:left;
+   margin-right:20px;
+   width: 250px;
+}
+
+#pictureBox{
+   text-align:center;
+   margin-bottom:20px;
+   padding:10px;
+	background-color: #eaeaea;
+}
+      
+   #pictureBox img{
+	  margin-top: 10px;
+      border:1px black solid;
+      max-width: 200px;
+      max-height: 200px;
+}
+   
+#changePicForm{
+   position:relative;
+   width:300px;
+   display:none;
+   z-index:1;
+   border:1px black solid;
+   -moz-box-shadow: 3px 3px 4px #000;
+   -webkit-box-shadow: 3px 3px 4px #000;
+   box-shadow: 3px 3px 4px #000;
+   padding:10px;
+   overflow: auto;
+	background-color: #eaeaea;
+}
+
+   #changePicForm input{
+      background-color:black;
+      color:white;
+   }
+#closePicForm{
+	float: right;
+}
+
+
+#profileBox{
+   background-color: #eaeaea;
+   padding:10px;
+}
+
+#profileBox h2{
+	font-size: 1.0em;
+	margin-bottom: 5px;
+}
+   #profileBox .status{
+      padding:10px;
+      font-weight: bold;
+      color: #eaeaea;
+      background-color: #212121;
+      text-align:center;
+      margin-left:auto;
+      margin-right:auto;
+      border-radius:5px;
+      border:1px black solid;
+      margin-bottom:0px;
+      width:500px;
+	font-size: 1.0em;
+}
+   
+.postRow{
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+border-radius:5px;
+margin-bottom:5px;
+padding:5px;
+background-color: #fffeff;
+}
+
+.postRow:hover{
+background-color: #eaeaea;
+}
+
+  .postRow p{
+     display:inline;
+  }
+
+	.timestamp{
+	}
+
+#status_change_box{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#status_change{
+	color: #009492;
+}
+   
+#status_clear{
+	color: #ff7277;
+   }
+
+#statusUpdate{
+   border:1px black solid;
+   width: 550px;
+   background-color: #009492;
+   position:relative;
+   left: 80px;
+   bottom: 60px;
+   z-index: 1;
+   display:none;
+   -moz-box-shadow: 3px 3px 4px #000;
+   -webkit-box-shadow: 3px 3px 4px #000;
+   box-shadow: 3px 3px 4px #000;
+   text-align:center;
+}
+
+#statusUpdate form{
+	
+}
+
+   #new_status{
+	width: 520px;
+	font-size: 1.5em;
+	background-color: black;
+	border: none;
+	color: #eaeaea;
+	margin-bottom: 5px;
+   }
+   
+   #statusUpdate a{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: right;
+	color: red;
+   } 
+  #change_status_submit{
+	background-color: #eaeaea;
+	width: 100px;
+	margin-bottom: 10px;
+}
+   #change_status_submit:hover{
+      color:red;
+   }
+
+#addFriendButton{
+      font-family:"Tahoma";
+      font-size: .9em;
+      background-color: #ff8f00;
+      padding:5px;
+      color:white;
+      width: 250px;
+      margin-bottom: 20px;
+}
+
+#friendsBox{
+   background-color: #eaeaea;
+   overflow:auto;
+   padding: 5px;
+   text-align: center;
+}
+
+.friend{
+	margin-right: 13px;
+	margin-top: 5px;
+	float: left;
+	width:54px;
+	height: 90px;
+	padding: 5px;
+	overflow: hidden;
+	border: 1px dashed #c0c0c0;
+}
+
+.friend:hover{
+	background-color: #c0c0c0;
+}
+   .friend img{
+         max-width:55px;
+         max-height: 65px;
+      }
+      #friendsBox .friend a{
+}
+
+#wall_box {
+	background-color: #eaeaea;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+	overflow: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	
+.image_box a{
+}
+
+.image_box{
+	text-align: center;
+	float: right;
+}
+
+.wall_post{
+	width: 600px;
+		overflow: auto;
+		border-bottom: 1px #769995 solid;
+		border-left: 1px #769995 solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.wall_post p{
+	padding: 5px;
+}
+
+	
+.image_box img{
+	max-width: 90px;
+	max-height: 90px;
+	display: block;
+}
+	#wall_box form{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+	
+	#wall_box textarea{
+	width: 600px;
+	height: 65px;
+}
+	#wall_box input{
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 1.0em;
+	margin-top: 5px;
+}

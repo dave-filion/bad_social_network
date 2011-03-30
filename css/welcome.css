@@ -1,0 +1,43 @@
+/* @override http://domepage.net/css/welcome.css */
+
+body {
+	background: #fffeff;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 30px;
+	text-align: center;
+	color: #eaeaea;
+	background-color: #212121;
+	padding-bottom: 30px;
+	font: 150px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-bottom: 15px;
+	margin-top: 80px;
+}
+
+h2 {
+	position: relative;
+	color: #ff8f00;
+	top: 260px;
+	left: 225px;
+}
+
+h3 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	background-color: #eaeaea;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+a {
+	color: #ff8f00;
+}

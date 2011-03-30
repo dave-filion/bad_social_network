@@ -1,0 +1,60 @@
+/* @override http://domepage.net/css/update.css */
+
+#updateWall{
+   margin-top:20px;
+   width:750px;
+   padding:10px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:20px;
+   border-left:1px dashed #C1C1C1;
+   border-right:1px dashed #C1C1C1;
+   background-color:#1B1B1B;
+   margin-bottom:20px;
+}
+
+#updateWall li{
+   color:black;
+   font-size:1.5em;
+   font-weight:bold;
+}
+
+#updateWall ul{
+	height: 1500px;
+}
+
+.quote{
+   padding:5px;
+   width:250px;
+   position:relative;
+   top:40px;
+   left:65px;
+   background-color:white;
+   text-align:center;
+   color:black;
+   border-radius:5px;
+   -moz-border-radius:5px;
+	border: 1px solid #797979;
+}
+
+.pic{
+   border:1px white solid;
+   max-width:100px;
+   max-height:100px;
+}
+
+#updates{
+   height:600px;
+}
+
+#backUpdates{
+   float:right;
+}
+
+#moreUpdates{
+   float:left;
+}
+
+#backUpdates img a, #moreUpdates img a{
+   border:0;
+}

@@ -1,0 +1,371 @@
+/* @override 
+	http://domepage.net/css/master.css
+	http://domepage.net/css/master.css
+*/
+
+*{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0;
+}
+
+.signature {
+	color: #a20000;
+	font-size: 1.0em;
+}
+
+body{
+   background-color: #fffeff;
+}
+
+li{
+   list-style: none inside ;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+   color: #f00;
+   margin:0px;
+   font-size: 15px;
+}
+
+h2{
+	color: black;
+	margin: 0px;
+	font-size: 13px;
+}
+
+p{
+   color:black;
+	font-size: 11px;
+}
+
+a{
+   color:black;
+   text-decoration: none;
+	font-size: 12px;
+}
+
+a:hover{
+   color:red;
+}
+
+#all{
+   width:1000px;
+   overflow:auto;
+   margin-left:auto;
+   margin-right:auto;
+   clear:both;
+}
+
+#leftBar{
+   margin-top:20px;
+   float:left;
+   margin-right:20px;
+   width:160px;
+}
+
+#content{
+   margin-top:20px;
+   margin-bottom: 50px;
+   margin-right:20px;
+   margin-left:0px;
+   overflow:auto;
+}
+   #content h1{
+      text-align:center;
+      margin-top:15px;
+	color: #000;
+}
+
+#header{
+   border-bottom:1px solid #769995;
+	background-color: #000;
+	color: #fffeff;
+	padding: 5px;
+}
+
+   #header h1, #header a{
+      color: #fffeff;
+      font-size:1.4em;
+      display:inline;
+      text-decoration:none;
+   }
+   
+   #header h2{      
+      color: #fffeff;
+	display: inline;
+}
+   
+   #header .betaTag{
+      position:relative;
+      right:3px;
+      bottom:5px;
+	  color: #ff8f00;
+      display:inline;
+      padding:0px;
+      margin-left:0px;
+      margin-right:10px;
+   }
+
+#navbar{
+   text-align:center;
+   width:950px;
+   margin-right:20px;
+   border-left:1px #769995 solid;
+   border-right:1px #769995 solid;
+   border-bottom:1px #769995 solid;
+
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-left: auto;
+   margin-right: auto;
+	background-color: #eaeaea;
+}
+   #navbar a{
+      padding-right: 10px;
+      padding-left: 10px;
+	font-size: 1.0em;
+}
+   
+   #navbar a:hover{
+	color: red;
+}
+         
+#signInBox{
+   padding:10px;
+   border:1px #769995 solid;
+   border-radius:5px;
+   margin-bottom:20px;
+	background-color: #eaeaea;
+}
+   #signInBox h1{
+	  color: #000;
+      margin-bottom: 10px;
+      text-align:center;
+   }
+   
+   #signInBox h2{
+	margin-bottom: 5px;
+}
+   
+   #signInBox .good{
+      font-size:.8em;
+      color: #5CBECD;
+   }
+   
+   #signInBox .userName{
+	font-size: 1.1em;
+	color: #f00;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+   
+   #signInBox a{
+   }
+   
+   #signInBox a:hover{
+		color: red;
+   }
+   
+/*that place where you click the write button */
+
+#writeBox{
+   margin-bottom: 0;
+   border: 1px solid #797979;
+   padding-left:15px;
+   padding-right:15px;
+   padding-top:0px;
+   padding-bottom:0px;
+   text-align:center;
+	background: #929292 none no-repeat;
+}
+
+   #writeBox a{
+      font-size:2.5em;
+      color: #fffeff;
+}
+      
+   #writeBox a:hover{
+      color:red;
+   }
+
+.post{
+   padding: 10px;
+	background-color: #eaeaea;
+	margin-bottom: 4px;
+	overflow: auto;
+	clear: none;
+	height: 40px;
+}
+
+.post:hover {
+	background-color: #d5d5d5;
+}
+
+.post h2 {
+	margin-left: 10px;
+	display: inline;
+	padding: 0;
+	font-size: 11px;
+}
+
+.post h3 {
+	color: #a20000;
+	font-size: 12px;
+	display: inline;
+	margin-left: 10px;
+	font-style: italic;
+}
+   
+   .post a{
+	color: #f00;
+	font-size: 14px;
+}
+      
+   .post .author{
+	color: #008fff;
+	font-size: 12px;
+}
+      
+   .post .timestamp{
+      display:inline;
+	float: right;
+	margin: 0;
+	color: #004f95;
+}
+   
+   .post .postTitle{
+	font-size: 14px;
+	color: #f00;
+}
+   
+   .post .postTitle:hover{
+      color:#995651;
+   }
+   
+   .post .removeButton{
+      float:right;
+	width: 12px;
+	height: 12px;
+}
+
+.score_box {
+	float: left;
+	background-color: #d5d5d5;
+	height: 60px;
+	width: 20px;
+}
+
+.score_box img {
+	border: 0;
+	position: relative;
+	top: 15px;
+	width: 15px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+}
+
+#pageNav{
+   text-align:center;
+   padding:10px;
+}
+   #pageNav a{
+      font-size:1.5em;
+      text-decoration:none;
+   }
+
+#footer{
+   clear:both;
+   border-top:1px solid #A87C81;
+}
+   #footer h1{
+      font-size:1.5em;
+      color:black;
+      padding:10px;
+   }
+   
+#registerBox{
+   margin-top:20px;
+   border:1px #769995 solid;
+   margin:10px;
+   padding:15px;
+   margin-left:auto;
+   margin-right:auto; 
+   border-radius:5px;  
+}
+   #registerBox h1{
+      text-align:center;
+      padding:0px;
+      margin:0px;
+   }
+	#registerBox p{
+	text-align: center;
+	}
+
+   #registerBox form{
+      width: 200px;
+      margin-left:auto;
+      margin-right:auto;
+   }
+
+   #registerBox input{
+      text-align:center;
+      width:200px;
+      height:35px;
+      margin-top:5px;
+      margin-bottom:5px;
+      border-radius:5px;
+   }
+   
+   #registerBox form #submit{
+      margin-top:15px;
+      background-color: red;
+      color: white;
+   }
+   
+#rep_box{
+	padding: 10px;
+    border:1px #769995 solid;
+    border-radius:5px;
+    margin-left:auto;
+    margin-right:auto;
+	background-color: #eaeaea;
+}
+	#rep_box h1{
+	color: red;
+	margin-bottom: 5px;
+}
+	
+	#rep_box ul{
+	}
+	
+	#rep_box li:hover{
+	}
+
+#filter_box {
+	background-color: #eaeaea;
+	border-right: 1px solid #769995;
+	border-bottom: 1px solid #769995;
+	border-left: 1px solid #769995;
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto 20px;
+	width: 675px;
+}
+
+#filter_box a {
+	margin-right: 15px;
+	font-size: 12px;
+}
+
+.up{
+	background-color: rgba(0,255,139,0.5);
+}
+
+.down{
+	background-color: rgba(74,214,255,0.5);
+}
